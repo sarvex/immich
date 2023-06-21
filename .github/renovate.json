@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base"],
+  "extends": ["github>sarvex/renovate-configs:dart"],
   "packageRules": [
     {
       "matchPaths": ["mobile"],
@@ -15,5 +15,5 @@
       "groupName": "web"
     }
   ],
-  "enabled": false
+  "enabled": true
 }
