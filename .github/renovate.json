@@ -1,6 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["local>immich-app/.github:renovate-config"],
+  "extends": ["github>sarvex/renovate-configs:dart"]
+  "extends": ["github>sarvex/renovate-configs:ts-lib"]
   "packageRules": [
     {
       "matchFileNames": [
